@@ -1,0 +1,13 @@
+laserscan_multi_merger:
+  ros__parameters:
+    destination_frame: "lidar_merged"
+    cloud_destination_topic: "/merged_cloud"
+    scan_destination_topic: "/scan_multi"
+    laserscan_topics: "/front_lidar/scan_filtered_front /rear_lidar/scan_filtered_rear"
+    angle_min: -3.15
+    angle_max: 3.15
+    angle_increment: 0.0058
+    scan_time: 0.033333333
+    range_min: 0.15
+    range_max: .inf
+
